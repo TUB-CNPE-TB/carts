@@ -7,6 +7,16 @@
     <groupId>works.weave.microservices-demo</groupId>
     <artifactId>carts</artifactId>
     <packaging>jar</packaging>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>artifact-registry</id>
+            <url>artifactregistry://europe-west3-maven.pkg.dev/cnpe-blue/data-usage-tracing-maven</url>
+        </snapshotRepository>
+        <repository>
+            <id>artifact-registry</id>
+            <url>artifactregistry://europe-west3-maven.pkg.dev/cnpe-blue/data-usage-tracing-maven</url>
+        </repository>
+    </distributionManagement>
 
     <name>carts</name>
     <description>Carts service for microservices-demo application</description>
@@ -73,11 +83,21 @@
             <version>0.8.4</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.datausagetracing.integration</groupId>
+            <artifactId>spring</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <build>
         <finalName>carts</finalName>
         <plugins>
+            <plugin>
+                <groupId>com.google.cloud.artifactregistry</groupId>
+                <artifactId>artifactregistry-maven-wagon</artifactId>
+                <version>2.1.1</version>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
@@ -138,6 +158,16 @@
     </build>
 
     <repositories>
+        <repository>
+            <id>artifact-registry</id>
+            <url>artifactregistry://europe-west3-maven.pkg.dev/cnpe-blue/data-usage-tracing-maven</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
