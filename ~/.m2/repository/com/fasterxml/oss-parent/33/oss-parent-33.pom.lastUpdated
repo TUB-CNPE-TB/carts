@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Feb 06 17:51:57 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1644166317268
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact com.fasterxml\:oss-parent\:pom\:33 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/com/fasterxml/oss-parent/33/oss-parent-33.pom, status\: 401 Unauthorized
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166317204

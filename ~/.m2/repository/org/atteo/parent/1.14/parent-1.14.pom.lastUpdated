@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Feb 06 17:52:23 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1644166343763
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.atteo\:parent\:pom\:1.14 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/atteo/parent/1.14/parent-1.14.pom, status\: 401 Unauthorized
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166343714

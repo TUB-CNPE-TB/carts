@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Feb 06 17:52:04 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1644166324069
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.apache.maven.plugins\:maven-resources-plugin\:pom\:3.0.2 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom, status\: 401 Unauthorized
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166324017

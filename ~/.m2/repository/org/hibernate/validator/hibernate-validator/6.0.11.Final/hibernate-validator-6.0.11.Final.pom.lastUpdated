@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Feb 06 17:52:16 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1644166336189
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.hibernate.validator\:hibernate-validator\:pom\:6.0.11.Final from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/hibernate/validator/hibernate-validator/6.0.11.Final/hibernate-validator-6.0.11.Final.pom, status\: 401 Unauthorized
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166336143

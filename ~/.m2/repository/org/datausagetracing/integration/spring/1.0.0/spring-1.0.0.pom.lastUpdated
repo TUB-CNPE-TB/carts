@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Feb 06 17:58:15 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1644166368837
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.datausagetracing.integration\:spring\:pom\:1.0.0 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/datausagetracing/integration/spring/1.0.0/spring-1.0.0.pom, status\: 401 Unauthorized
+https\://repo.maven.apache.org/maven2/.error=
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166695099

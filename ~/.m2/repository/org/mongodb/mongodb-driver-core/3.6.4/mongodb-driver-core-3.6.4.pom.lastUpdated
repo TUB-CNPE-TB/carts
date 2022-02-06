@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Feb 06 17:52:24 CET 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1644166344638
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.mongodb\:mongodb-driver-core\:pom\:3.6.4 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.pom, status\: 401 Unauthorized
+@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166344587
