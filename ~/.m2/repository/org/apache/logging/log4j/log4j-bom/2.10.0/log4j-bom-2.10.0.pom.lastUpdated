@@ -1,5 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Feb 06 17:51:58 CET 2022
-https\://repo.maven.apache.org/maven2/.lastUpdated=1644166318122
-https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.apache.logging.log4j\:log4j-bom\:pom\:2.10.0 from/to spring-releases (https\://repo.spring.io/libs-release)\: authentication failed for https\://repo.spring.io/libs-release/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom, status\: 401 Unauthorized
-@default-spring-releases-https\://repo.spring.io/libs-release/.lastUpdated=1644166318065
